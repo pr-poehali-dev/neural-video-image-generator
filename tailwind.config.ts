@@ -19,15 +19,18 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sora: ['Sora', 'sans-serif'],
-				grotesk: ['Space Grotesk', 'sans-serif'],
+				display: ['Cormorant', 'serif'],
+				oswald: ['Oswald', 'sans-serif'],
 				mono: ['JetBrains Mono', 'monospace'],
 			},
 			colors: {
-				neon: {
-					violet: 'hsl(var(--neon-violet))',
-					cyan: 'hsl(var(--neon-cyan))',
-					pink: 'hsl(var(--neon-pink))',
+				crimson: {
+					DEFAULT: 'hsl(var(--crimson))',
+					deep: 'hsl(var(--crimson-deep))',
+				},
+				gold: {
+					DEFAULT: 'hsl(var(--gold))',
+					soft: 'hsl(var(--gold-soft))',
 				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
